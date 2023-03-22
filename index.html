@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Test</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- toastify css  -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body style="background-color: rgb(31, 31, 40);">
+    <header>
+         <div class="container2">
+            <center>
+                <h1 id="oneHeading"></h1>
+            </center>
+         </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <center>
+                <h1 id="firstHeading">Admin Login</h1>
+                <input id="userName" type="text" placeholder="Username" required>
+                <br>
+                <br>
+                <br>
+                <img id="image1" src="./assets/images/newpic.png" alt="">
+                <input id="password" type="password" placeholder="Password" required>
+                <br>
+
+                <br>
+                <!-- <button id="btn" type="submit" class="btn btn-primary">Submit</button> -->
+                <img id="image" src="./assets/images/final key.png" alt="">
+                <p id="lostPassword" onclick="lost()" onfocus="style = 'color:white'">Lost Password?</p>
+                <br>
+                <br>
+                <button onclick="login()" id="btn"  type="submit" class="btn btn-primary" >Login</button>
+                <!-- <button onclick="login()" id="btn">Login</button> -->
+            </center>
+        </div>
+    </main>
+
+    <footer>
+        <!-- <a href=""></a> -->
+    </footer>
+
+    <!-- javascript  -->
+    <script src="javascript/script.js"></script>
+
+    <!-- toastify js  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+</html>

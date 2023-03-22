@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#oneHeading{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(41, 41, 50);
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    color: white;
+    box-shadow: 2px 2px 4px 8px rgb(30, 26, 26);
+}
+#firstHeading{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    
+}
+
+#userName{
+    position: relative;
+    top: 80px;
+    font-size: medium;
+    width:250px;
+    height: 30px;
+}
+#password{
+    position: relative;
+    top: 80px;
+    font-size: medium;
+    width:250px;
+    height: 30px;
+}
+#userName {
+    background-color: rgb(29, 31, 36);
+    color: white;
+}
+#password{
+    background-color: rgb(29, 31, 36);
+    color: white;
+}
+#image1{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    height: 20px;
+}
+#image{
+    position: absolute;
+    top: 185px;
+    left: 300px;
+    height: 20px;
+}
+#btn{
+    position: relative;
+    left: -78px;
+    font-size: x-large;
+    background-color: rgb(30, 24, 24);
+    color: white;
+    top: 68px;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 90px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(40, 35, 35);
+}
+#lostPassword{
+    position: absolute;
+    top: 224px;
+    right: 83px;
+    color: rgb(187, 196, 198);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Second page  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#allTags{
+    position: absolute;
+    top: 60px;
+    left: 35%;
+}
+#allTags a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    border: 2px solid rgb(24, 20, 20);
+    border-radius: 15px;
+    background-color: rgb(29, 25, 25);
+}
+#allTags a :hover{
+    background-color: rgb(45, 40, 40);
+}
+
+.container3{
+    background-color: black;
+    color: black;
+    position: relative;
+    top: 70px;
+    height: 300px;
+}
